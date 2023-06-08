@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:item_frame"
+      },
+      "title": "Where did it go?",
+      "description": "Place item frame top of the table.",
+      "background": "minecraft:textures/block/birch_planks.png",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "kelaynak:tables_adv",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

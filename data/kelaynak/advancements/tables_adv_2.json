@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_axe"
+    },
+    "title": "Local Table Carpenter",
+    "description": "Craft all the types of tables.",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "goal"
+  },
+  "parent": "kelaynak:tables_adv",
+  "criteria": {
+    "criterion_name_1": {
+      "trigger": "minecraft:impossible"
+    },
+    "criterion_name_2": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
